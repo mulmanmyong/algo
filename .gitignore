@@ -1,0 +1,15 @@
+# baekjoon ignore
+
+## cpp_baekjoon
+### out file
+baekjoon/cpp_baekjoon/a.out
+
+## java_baekjoon
+### .idea
+baekjoon/java_baekjoon/.idea/
+
+### out file
+baekjoon/java_baekjoon/out/
+
+### java_baekjoon.iml
+baekjoon/java_baekjoon/java_baekjoon.iml
