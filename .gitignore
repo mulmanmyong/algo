@@ -1,7 +1,12 @@
 # macOS X 시스템이 finder로 폴더에 접근할 때 자동으로 생기는 파일 (Desktop Services Store)
 .DS_Store
+baekjoon/.DS_Store
+baekjoon/cpp_baekjoon/.DS_Store
+baekjoon/java_baekjoon/.DS_Store
+baekjoon/python_baekjoon/.DS_Store
 
 # baekjoon ignore
+
 ## cpp_baekjoon
 ### out file
 baekjoon/cpp_baekjoon/a.out
@@ -15,3 +20,5 @@ baekjoon/java_baekjoon/out/
 
 ### java_baekjoon.iml
 baekjoon/java_baekjoon/java_baekjoon.iml
+
+## python_baekjoon
