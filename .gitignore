@@ -28,6 +28,7 @@ baekjoon/java_baekjoon/java_baekjoon.iml
 
 # programmers ignore
 programmers/코딩테스트 고득점 Kit/해시/a.out
+programmers/코딩테스트 고득점 Kit/스택_큐/a.out
 
 # swea ignore
 
@@ -48,3 +49,17 @@ swea/D3/a.out
 swea/D4/a.out
 
 swea/D4/1249.cpp
+
+# softeer ignore
+
+## LV1
+### out file
+softeer/LV1/a.out
+
+## LV2
+### out file
+softeer/LV2/a.out
+
+## LV3
+### out file
+softeer/LV3/a.out
