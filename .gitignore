@@ -3,29 +3,29 @@
 
 # macOS X 시스템이 finder로 폴더에 접근할 때 자동으로 생기는 파일 (Desktop Services Store)
 .DS_Store
-baekjoon/.DS_Store
-baekjoon/cpp_baekjoon/.DS_Store
-baekjoon/java_baekjoon/.DS_Store
-baekjoon/python_baekjoon/.DS_Store
+boj/.DS_Store
+boj/cpp_boj/.DS_Store
+boj/java_boj/.DS_Store
+boj/python_boj/.DS_Store
 
 # baekjoon ignore
 
 ## cpp_baekjoon
 ### out file
-baekjoon/cpp_baekjoon/a.out
+boj/cpp_boj/a.out
 
-baekjoon/cpp_baekjoon/GOLD/a.out
-baekjoon/cpp_baekjoon/SILVER/a.out
+boj/cpp_boj/GOLD/a.out
+boj/cpp_boj/SILVER/a.out
 
 ## java_baekjoon
 ### .idea
-baekjoon/java_baekjoon/.idea/
+boj/java_boj/.idea/
 
 ### out file
-baekjoon/java_baekjoon/out/
+boj/java_boj/out/
 
 ### java_baekjoon.iml
-baekjoon/java_baekjoon/java_baekjoon.iml
+boj/java_boj/java_boj.iml
 
 ## python_baekjoon
 
