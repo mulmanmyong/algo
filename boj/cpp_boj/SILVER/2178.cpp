@@ -1,4 +1,4 @@
-// 2178. 미로 탐색
+// 2178. 미로 탐색 -> 실버 1
 
 #include <iostream>
 #include <algorithm>
