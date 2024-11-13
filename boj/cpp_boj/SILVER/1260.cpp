@@ -1,4 +1,4 @@
-// 1260. DFS와 BFS - 실버 2
+// 1260. DFS와 BFS -> 실버 2
 
 #include <iostream>
 #include <algorithm>
