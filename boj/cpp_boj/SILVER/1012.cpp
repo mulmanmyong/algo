@@ -1,4 +1,4 @@
-// 1012. 유기농 배추 - 실버 2
+// 1012. 유기농 배추 -> 실버 2
 
 #include <iostream>
 #include <algorithm>

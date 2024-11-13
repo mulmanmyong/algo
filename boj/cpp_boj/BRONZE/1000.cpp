@@ -1,3 +1,5 @@
+// 1000. A+B -> 브론즈 5
+
 #include <iostream>
 
 using namespace std;
