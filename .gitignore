@@ -14,6 +14,7 @@ boj/python_boj/.DS_Store
 ### out file
 boj/cpp_boj/a.out
 
+boj/cpp_boj/BRONZE/a.out
 boj/cpp_boj/GOLD/a.out
 boj/cpp_boj/SILVER/a.out
 
