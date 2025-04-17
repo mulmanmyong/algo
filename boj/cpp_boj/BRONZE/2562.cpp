@@ -22,8 +22,8 @@ void func1(void) {
 void func2(void) {
     int arr[9] = {0, };
     for (int i = 0; i < 9; i++) cin >> arr[i];
-    cout << *max_element(arr, arr+9) << "\n"; // 최대값 요소 주소값을 반환?
-    cout << max_element(arr, arr+9) - arr + 1;
+    cout << *max_element(arr, arr+9) << "\n";  // 최대값을 가지는 이터레이터(포인터) 반환, 주소를 반환하는 것. 그래서 *를 통해 해당 주소의 값을 참조
+    cout << max_element(arr, arr+9) - arr + 1; // max_element()로 최댓값의 위치주소를 return하고, 배열의 시작주소를 뺴줌으로써 최대값의 위치 파악가능. 1부터 시작이니 +1을 해줌
 }
 
 int main(void) {
