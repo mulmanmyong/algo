@@ -1,3 +1,5 @@
+// 1004. 어린 왕자 -> 실버 3
+
 #include <iostream>
 #include <cmath>
 

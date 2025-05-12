@@ -1,3 +1,5 @@
+// 11723. 집합 -> 실버 5
+
 #include <iostream>
 #include <cstring>
 
