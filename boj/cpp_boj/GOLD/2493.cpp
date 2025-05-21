@@ -5,8 +5,29 @@
 using namespace std;
 
 void func1(void) {
-  // BFS/DFS 이후 돌아올 것
-  // https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x05.md
+  int n;
+  cin >> n;
+  vector<int> height(n);
+  vector<int> answer(n);
+  stack<pair<int, int>> st; // (index, height)
+
+  for (int i = 0; i < n; i++) {
+    cin >> height[i];
+
+    while (!st.empty() && st.top().second < height[i]) {
+      st.pop(); // 자신보다 작은 탑은 수신 불가
+    }
+
+    if (!st.empty()) {
+      answer[i] = st.top().first + 1; // 1-based index
+    } else {
+      answer[i] = 0;
+    }
+
+    st.push({i, height[i]});
+  }
+
+  for (int a : answer) cout << a << ' ';
 }
 
 int main(void)
