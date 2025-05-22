@@ -1,4 +1,4 @@
-// 6549. 히스토그램에서 가장 큰 직사각형 -> 플래티넘 5
+// 11003. 최솟값 찾기 -> 플래티넘 5
 
 #include <bits/stdc++.h>
 
@@ -6,7 +6,7 @@ using namespace std;
 
 void func1(void) {
   // keep
-  // https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x05.md
+  // https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x07.md
 }
 
 int main(void)
