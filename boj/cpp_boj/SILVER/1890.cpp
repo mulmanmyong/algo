@@ -36,7 +36,7 @@ int main(void)
   for (int i = 0; i < N; i++) {
     for (int j = 0; j < N; j++) {
       if (board[i][j] == 0) continue; // 마지막 지점은 이동 필요 없음 
-      // -> 해당값 처리 안하면 N-1+0=N-1 < N 되기에 재자리 점프로 정답값이 갱신된
+      // -> 해당값 처리 안하면 N-1+0=N-1 < N 되기에 재자리 점프를 해버림
       if (ans[i][j] == 0) continue;
 
       int jump = board[i][j]; // 점프할 거리
