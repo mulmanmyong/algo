@@ -74,3 +74,11 @@ BaaaaaaaarkingDog_algo_lec/
 
 ## .mailmap
 .mailmap
+
+## .project
+.project
+
+## .classpath
+boj/java_boj/.classpath
+
+boj/java_boj/bin
