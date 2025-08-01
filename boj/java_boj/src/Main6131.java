@@ -1,12 +1,15 @@
 // 6131. 완전 제곱수 -> 브론즈 3
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Main6131 {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		
-		int N = sc.nextInt(); //A의 제곱과 B의 제곱의 간격 
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		// Scanner sc = new Scanner(System.in);
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		// int N = sc.nextInt(); //A의 제곱과 B의 제곱의 간격
+		int N = Integer.parseInt(br.readLine()); // Scanner와 BufferedReader를 보면 BufferedReader가 더 빠름   
 		
 		int ans = 0; // 정답 count 
 		//A >= B이고, 1 ~ 500까지
