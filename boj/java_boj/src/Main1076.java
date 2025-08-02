@@ -15,6 +15,7 @@ public class Main1076 {
 
 		// Map Collections을 이용해서 입력값을 키로 하고, 그에 해당하는 인덱스를 value 
 		// Map을 입력하여 깔끔하게 구현하는 것 O(N)
+		/*
 		Map<String, Integer> colorMap = new HashMap<>(); 
 		for (int index = 0; index < colors.length; index++) {
 			colorMap.put(colors[index], index);
@@ -24,8 +25,9 @@ public class Main1076 {
 		int firstNum = colorMap.get(br.readLine());
 		int secondNum = colorMap.get(br.readLine());
 		int multiplier = colorMap.get(br.readLine());
+		*/
 		
-		/*// 반복을 하며 해당 컬러와 일치하는 것 찾는 것 O(N)
+		// 반복을 하며 해당 컬러와 일치하는 것 찾는 것 O(N)
 		String[] inputColor = new String[3];
 		for (int inputIndex = 0; inputIndex < 3; inputIndex++) {
 			inputColor[inputIndex] = br.readLine();
@@ -43,12 +45,12 @@ public class Main1076 {
 			if (colors[index].equals(inputColor[2])) {
 				multiplier = index;
 			}
-		}*/
+		}
 		
 		// System.out.println((firstNum*10L + secondNum) * (long)Math.pow(10, multiplier));
 		long ans = (firstNum * 10L + secondNum);
 		for (int i = 0; i < multiplier; i++) { // pow는 double return, 따라서 long으로의 강제 형변환 
-			// long에서 직접 계산 
+			// long 타입을 유지한 채 직접 계산 
 			ans *= 10;
 		}
 		System.out.println(ans);
