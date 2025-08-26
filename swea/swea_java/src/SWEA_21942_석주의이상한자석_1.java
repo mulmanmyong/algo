@@ -2,7 +2,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class SWEA_21942_석주의이상한자석_시뮬레이션 {
+// 시뮬레이션 풀이 
+public class SWEA_21942_석주의이상한자석_1 {
 	static BufferedReader br;
 	static StringTokenizer st;
 	static StringBuilder sb;

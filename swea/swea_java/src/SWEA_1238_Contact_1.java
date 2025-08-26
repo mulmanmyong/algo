@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class SWEA_1238_Contact_BFS {
+// BFS 풀이 
+public class SWEA_1238_Contact_1 {
 	static BufferedReader br;
 	static StringTokenizer st;
 	static StringBuilder sb;

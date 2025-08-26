@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ_2252_줄세우기_위상정렬 {
+// 위상 정렬 풀이 
+public class BOJ_2252_줄세우기_1 {
 
 	// 인접 리스트를 위한 노드 클래스 생성
 	static class Node {

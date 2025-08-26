@@ -2,7 +2,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class SWEA_25069_근원이의면접_Greedy {
+// 그리디 풀이 
+public class SWEA_25069_근원이의면접_1 {
 	
 	static BufferedReader br;
 	static StringTokenizer st;

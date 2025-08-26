@@ -1,10 +1,9 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayDeque;
-import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ_1987_알파벳_DFS {
+// DFS 풀이 
+public class BOJ_1987_알파벳_1 {
 	
 	static BufferedReader br;
 	static StringTokenizer st;

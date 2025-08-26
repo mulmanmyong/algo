@@ -3,7 +3,8 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class BOJ_17135_캐슬디펜스_시뮬레이션 {
+// 시뮬레이션 풀이 
+public class BOJ_17135_캐슬디펜스_1 {
 
 	static BufferedReader br;
 	static StringTokenizer st;

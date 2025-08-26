@@ -3,7 +3,8 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class BOJ_1759_암호만들기_조합 {
+// 조합 풀이 
+public class BOJ_1759_암호만들기_1 {
 	static BufferedReader br;
 	static StringTokenizer st;
 	static StringBuilder sb;

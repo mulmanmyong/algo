@@ -4,7 +4,8 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ_10026_적록색약_BFS {
+// BFS 풀이  
+public class BOJ_10026_적록색약_1 {
 	
 	static BufferedReader br;
 	static StringTokenizer st;

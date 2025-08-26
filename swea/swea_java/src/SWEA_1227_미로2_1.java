@@ -4,7 +4,8 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class SWEA_1227_미로2_BFS {
+// BFS 풀이 
+public class SWEA_1227_미로2_1 {
 	static BufferedReader br;
 	static StringTokenizer st;
 	static StringBuilder sb;

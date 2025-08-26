@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class SWEA_1267_작업순서_위상정렬 {
+// 위상정렬 풀이 
+public class SWEA_1267_작업순서_1 {
 
 	static class Node {
 		int to;

@@ -4,7 +4,8 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class SWEA_7733_치즈도둑_BFS {
+// BFS 풀이 
+public class SWEA_7733_치즈도둑_1 {
 	
 	static BufferedReader br;
 	static StringTokenizer st;

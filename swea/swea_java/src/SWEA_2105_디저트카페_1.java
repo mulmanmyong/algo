@@ -2,7 +2,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class SWEA_2105_디저트카페_완전탐색 {
+// 완전탐색 풀이 
+public class SWEA_2105_디저트카페_1 {
 
 	static BufferedReader br;
 	static StringTokenizer st;

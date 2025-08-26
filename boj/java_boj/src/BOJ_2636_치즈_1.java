@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ_2636_치즈_BFS {
+// BFS 풀이 
+public class BOJ_2636_치즈_1 {
 	
 	static BufferedReader br;
 	static StringTokenizer st;
