@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 //유니온파인드를 이용하여 크루스칼로 풀어보기, 배열로 간선처리 
-public class BOJ_1922_네트워크연결_1 {
+public class BOJ_1922_네트워크연결_1 {
 	
 	static BufferedReader br;
 	static StringTokenizer st;
