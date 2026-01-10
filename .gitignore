@@ -8,6 +8,9 @@ boj/cpp_boj/.DS_Store
 boj/java_boj/.DS_Store
 boj/python_boj/.DS_Store
 
+out/
+.idea/
+
 # baekjoon ignore
 
 ## cpp_baekjoon
