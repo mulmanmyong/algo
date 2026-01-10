@@ -1,5 +1,3 @@
-package boj.SILVER;
-
 import java.io.*;
 import java.util.*;
 
