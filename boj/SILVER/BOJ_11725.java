@@ -1,8 +1,6 @@
 import java.io.*;
 import java.util.*;
 
-import static java.lang.System.out;
-
 public class BOJ_11725 {
 
     static BufferedReader br;
