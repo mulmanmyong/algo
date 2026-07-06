@@ -1,7 +1,6 @@
 #include <string>
 #include <vector>
 #include <unordered_set>
-#include <numeric>
 
 using namespace std;
 
@@ -11,17 +10,26 @@ int solution(vector<int> elements) {
     
     // 정답용 해시셋
     unordered_set<int> answer;
-    // 연속 부분 수열의 합을 구하기 위한 길이 설정
+    
+    // 그리고 원형이니깐 슬라이딩 윈도우 방식을 통해 구간합을 진행
     for (int len = 1; len <= elements.size(); len++) {
-        // 모두가 첫 시작 위치이었을 경우를 확인
-        for (int st = 0; st < elements.size(); st++) {
-            vector<int> vec;
-            // 시작위치부터 len까지 vec에 담음 (부분수열)
-            for (int i = st; i < st + len; i++) {
-                vec.push_back(elements[i % elements.size()]);
-            }
-            // 부분수열의 합을 정답 해시셋(중복 제거)에 삽입
-            answer.insert(accumulate(vec.begin(), vec.end(), 0));
+        int sum = 0;
+        
+        // 첫번째 구간
+        for (int i = 0; i < len; i++) {
+            sum += elements[i % elements.size()];
+        }
+        // 첫번째 구간의 합 삽입
+        answer.insert(sum);
+        
+        // 이후 슬라이딩 윈도우 기법으로 슬라이딩 진행
+        for (int st = 1; st < elements.size(); st++) {
+            // 제일 앞에 값을 지우고
+            sum -= elements[(st - 1) % elements.size()];
+            // 다음 값을 더함
+            sum += elements[(st + len - 1) % elements.size()];
+            // 그리고 이 합을 삽입
+            answer.insert(sum);
         }
     }
     
