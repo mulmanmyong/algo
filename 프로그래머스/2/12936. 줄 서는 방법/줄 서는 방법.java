@@ -15,9 +15,9 @@ class Solution {
         }
         
         // n명이 줄 서는 전체 경우의 수는 n!
-        long factorial = 1;
+        long fact = 1;
         for (int i = 1; i <= n; i++) {
-            factorial *= i;
+            fact *= i;
         }
         
         // k를 0-based로 변경
@@ -27,10 +27,10 @@ class Solution {
         for (int i = 0; i < n; i++) {
             // 현재 사람 한 명을 고정하면
             // 남은 사람들이 만들 수 있는 경우의 수는 (남은 사람 수)!
-            factorial /= (n - i);
+            fact /= (n - i);
             
             // k번째 순열이 몇 번째 묶음에 있는지 계산
-            int index = (int) (k / factorial);
+            int index = (int) (k / fact);
             
             // 해당 사람을 현재 자리에 배치
             answer[i] = people.get(index);
@@ -38,7 +38,7 @@ class Solution {
             people.remove(index);
             
             // 선택한 묶음 안에서 다시 몇 번째인지 계산
-            k %= factorial;
+            k %= fact;
         }
         
         return answer;
